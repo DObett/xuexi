@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-25T08:46:50.821Z",
+        "line": 16,
+        "name": "科目类型格式不正确",
+        "description": "",
+        "id": "科目列表-qb-0001;科目类型格式不正确;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "科目专业类型状态 \"https://tool.lu/timestamp/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "断言",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "JSONPATH_ASSERT \"result\" equals \"000000\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "JSONPATH_GET_MONGO",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "data.token",
+                  "token"
+                ]
+              },
+              {
+                "cells": [
+                  "data.userId",
+                  "userId"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "科目列表-QB_0001",
+    "description": "  1. 科目类型格式不正确",
+    "id": "科目列表-qb-0001",
+    "keyword": "Feature",
+    "uri": "classpath:features//QB_0001.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-25T08:46:51.016Z",
+        "line": 4,
+        "name": "试题分类列表-正常",
+        "description": "",
+        "id": "智能运营平台登录;试题分类列表-正常",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "URL \"http://umsacheck.niceloo.com/api/qb/papertype/profile/list\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Get",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-25T08:46:51.038Z",
+        "line": 9,
+        "name": "试题分类列表-异常",
+        "description": "",
+        "id": "智能运营平台登录;试题分类列表-异常",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "URL \"http://umsacheck.niceloo.com/api/qb/papertype/profile/list1\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Get",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "智能运营平台登录",
+    "description": "",
+    "id": "智能运营平台登录",
+    "keyword": "Feature",
+    "uri": "classpath:features//admin_login.feature",
+    "tags": []
+  }
+]
