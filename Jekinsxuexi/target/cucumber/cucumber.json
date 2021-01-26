@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-26T03:33:04.221Z",
+        "start_timestamp": "2021-01-26T06:29:30.326Z",
         "line": 17,
         "name": "A001",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1235000000,
+              "duration": 1308000000,
               "status": "passed"
             },
             "line": 5,
@@ -31,50 +31,19 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
             "line": 6,
             "name": "Get",
-            "match": {},
+            "match": {
+              "location": "a.example.StepDefinitions.when()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "断言",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "JSONPATH_GET_MONGO",
-            "match": {},
-            "rows": [
-              {
-                "cells": [
-                  "data.token",
-                  "token"
-                ]
-              },
-              {
-                "cells": [
-                  "data.userId",
-                  "userId"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 26000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "JSONPATH_ASSERT \".main-doc \u003e h3:nth-child(1)\" equals \"获取当前时间戳\"",
