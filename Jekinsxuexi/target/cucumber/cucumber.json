@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-26T03:33:04.221Z",
+        "line": 17,
+        "name": "A001",
+        "description": "",
+        "id": "a001;a001;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1235000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "网址 \"https://tool.lu/timestamp/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://tool.lu/timestamp/\"",
+                  "offset": 3
+                }
+              ],
+              "location": "a.example.StepDefinitions.geturl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "断言",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "JSONPATH_GET_MONGO",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "data.token",
+                  "token"
+                ]
+              },
+              {
+                "cells": [
+                  "data.userId",
+                  "userId"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "JSONPATH_ASSERT \".main-doc \u003e h3:nth-child(1)\" equals \"获取当前时间戳\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\".main-doc \u003e h3:nth-child(1)\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"获取当前时间戳\"",
+                  "offset": 53
+                }
+              ],
+              "location": "a.example.StepDefinitions.jsonpath_assertEquals(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A001",
+    "description": "",
+    "id": "a001",
+    "keyword": "Feature",
+    "uri": "classpath:features//A001.feature",
+    "tags": []
+  }
+]
