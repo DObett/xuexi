@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-26T06:29:30.326Z",
+        "start_timestamp": "2021-01-30T09:39:42.825Z",
         "line": 17,
         "name": "A001",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1308000000,
+              "duration": 1041000000,
               "status": "passed"
             },
             "line": 5,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 97000000,
               "status": "passed"
             },
             "line": 14,
@@ -70,6 +70,94 @@
     "id": "a001",
     "keyword": "Feature",
     "uri": "classpath:features//A001.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T09:39:44.086Z",
+        "line": 30,
+        "name": "A002",
+        "description": "",
+        "id": "a002;a002;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "API \"/api/ir/item/view/list\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/api/ir/item/view/list",
+                  "offset": 5
+                }
+              ],
+              "location": "a.example.StepDefinitions.api(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get",
+            "match": {
+              "location": "a.example.StepDefinitions.when()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1513000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Param",
+            "match": {
+              "location": "a.example.StepDefinitions.paramsYaml(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 8,
+              "value": "pageIndex :\npageSize :\norderNo :\nuserId :\nprojectId :\nschoolId :\norderType :\nitemdtlAimdatestart :\nitemdtlAimdateend :\n\n"
+            }
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "JSONPATH_ASSERT \"result\" equals \"000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"result\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"000000\"",
+                  "offset": 32
+                }
+              ],
+              "location": "a.example.StepDefinitions.jsonpath_assertEquals(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A002",
+    "description": "",
+    "id": "a002",
+    "keyword": "Feature",
+    "uri": "classpath:features//A002.feature",
     "tags": []
   }
 ]
