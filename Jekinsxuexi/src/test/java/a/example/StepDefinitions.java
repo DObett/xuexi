@@ -28,7 +28,7 @@ import java.util.Set;
 import static org.junit.Assert.*;
 
 public class StepDefinitions {
-      private  String srr;
+
       private String api;
       private String urll ="http://192.168.10.102:7010";
     private String aa;
@@ -40,7 +40,7 @@ public class StepDefinitions {
         String CC=".main-doc > h3:nth-child(1)";
         Document doc = Jsoup.parse(aa);
         String B =doc.select(CC).text();
-        this.srr=aa;
+        this.aa=aa;
         System.out.println(B);
     }
 
@@ -115,18 +115,47 @@ public class StepDefinitions {
 
 
     @Then("JSONPATH_ASSERT {string} equals {string}")
-    public void jsonpath_assertEquals(String arg0, String arg1) {
-      //  Document doc = Jsoup.parse(aa);
+    public void jsonpath_assertEquals(String arg0, String arg1) throws Exception {
+        if (isJSON2(aa) == true) {
+            String arg3 = JsonPath.read(aa, "$." + arg0);
+            if (arg3.equals(arg1)) {
+                System.out.println("断言OK");
+            }
+        } else {
 
-      //  String  arg3 =doc.select(arg0).text();
-        String  arg3 = JsonPath.read(aa,"$."+arg0);
-        if (arg3.equals(arg1)) {
-            System.out.println("断言OK");
-        }else {
-            System.out.println("断言失败1");
+                    Document doc = Jsoup.parse(aa);
+
+                    String  arg4 =doc.select(arg0).text();
+                     if (arg4.equals(arg1)) {
+                        System.out.println("断言OK");
+                        }
         }
 
-        Assert.assertTrue(arg3.equals(arg1));
+
+
+
+//        for (int x=0;x<2;x++) {
+//            switch (x){
+//
+//                case 0 :
+//
+//                    Document doc = Jsoup.parse(srr);
+//
+//                    String  arg4 =doc.select(arg0).text();
+//                     if (arg4.equals(arg1)) {
+//                        System.out.println("断言OK");
+//                        }
+//
+//                case 1:
+//
+//                    String  arg3 = JsonPath.read(aa,"$."+arg0);
+//                    if (arg3.equals(arg1)) {
+//                        System.out.println("断言OK");
+//                    }
+//
+//        }
+
+       // Assert.assertTrue(arg3.equals(arg1));
     }
 
 
@@ -155,4 +184,16 @@ public class StepDefinitions {
 
 
 
+
+
+    public static boolean isJSON2(String str) {
+        boolean result = false;
+        try {
+            Object obj= JSON.parse(str);
+            result = true;
+        } catch (Exception e) {
+            result=false;
+        }
+        return result;
     }
+}
