@@ -24,20 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f04d44e1-0bee-4336-bad9-4b743523ac49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Jekinsxuexi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jekinsxuexi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="bf45cf80-6c5b-4c05-a6a4-f4f96bff2d42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-a.example.RunCucumberTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/a.example.RunCucumberTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/a/example/RunCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/a/example/StepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/A001.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/A002.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssured/RestAssured" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssured/RestAssured" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-ircenter-api-test" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-ircenter-api-test" afterDir="false" />
     </list>
@@ -74,12 +62,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Jiekou\Jekinsxuexi\src\test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Jiekou\Jekinsxuexi\src\test\resources\features" />
       <recent name="D:\接口自动化学习\Jekinsxuexi\src\test\resources\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Jiekou\Jekinsxuexi\src\test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Suiji">
