@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:cod" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f04d44e1-0bee-4336-bad9-4b743523ac49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/a/example/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/a/example/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-a.example.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-a.example.RunCucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/a.example.RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/a.example.RunCucumberTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/a/example/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/a/example/StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jekinxuexi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-ircenter-api-test" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-ircenter-api-test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msu-xuxi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msu-xuxi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msu-xuxi/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/../msu-xuxi/target/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msu-xuxi/target/cucumber/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/../msu-xuxi/target/cucumber/cucumber.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1naKi85teYCpuT497a3ezf6Rc6n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new-ready" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Jiekou\Jekinsxuexi\src\test\resources\features" />
+      <recent name="D:\接口自动化学习\Jekinsxuexi\src\test\resources\features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunCucumberTest">
+    <configuration name="Feature: A002" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A002.feature" />
+      <option name="GLUE" value="a.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Jekinsxuexi" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: A002" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: A001 (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A001.feature" />
+      <option name="GLUE" value="a.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Jekinsxuexi" />
+      <option name="NAME_FILTER" value="^A001$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A001$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A001" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: A001 (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A002.feature" />
+      <option name="GLUE" value="a.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Jekinsxuexi" />
+      <option name="NAME_FILTER" value="^A001$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A001$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A001" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: A002" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A002.feature" />
+      <option name="GLUE" value="a.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Jekinsxuexi" />
+      <option name="NAME_FILTER" value="^A002$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^A002$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A002" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jekinsxuexi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a.example" />
+      <option name="MAIN_CLASS_NAME" value="a.example.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Scenario: A002" />
+        <item itemvalue="Cucumber Java.Feature: A002" />
+        <item itemvalue="Cucumber Java.Scenario: A001 (2)" />
+        <item itemvalue="Cucumber Java.Scenario: A001 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f04d44e1-0bee-4336-bad9-4b743523ac49" name="Default Changelist" comment="" />
+      <created>1611622885127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611622885127</updated>
+      <workItem from="1611623012983" duration="2814000" />
+      <workItem from="1611625855616" duration="1503000" />
+      <workItem from="1611627395349" duration="1596000" />
+      <workItem from="1611629149336" duration="3436000" />
+      <workItem from="1611633204890" duration="7787000" />
+      <workItem from="1611656551335" duration="9000" />
+      <workItem from="1611798186783" duration="757000" />
+      <workItem from="1611968997603" duration="42000" />
+      <workItem from="1611969729265" duration="15176000" />
+      <workItem from="1611997758228" duration="2206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="264" key="#Console" timestamp="1611629401861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="264" key="#Console/0.0.1920.1040@0.0.1920.1040" timestamp="1611629401861" />
+    <state x="629" y="134" key="#Feature:_A001" timestamp="1611628864177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="134" key="#Feature:_A001/0.0.1920.1040@0.0.1920.1040" timestamp="1611628864177" />
+    <state x="541" y="134" key="#RunCucumberTest" timestamp="1611627098100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="541" y="134" key="#RunCucumberTest/0.0.1920.1040@0.0.1920.1040" timestamp="1611627098100" />
+    <state x="629" y="134" key="#Scenario:_A001_(2)" timestamp="1611970400478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="134" key="#Scenario:_A001_(2)/0.0.1920.1040@0.0.1920.1040" timestamp="1611970400478" />
+    <state x="629" y="134" key="#Scenario:_科目类型格式不正确" timestamp="1611628814357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="134" key="#Scenario:_科目类型格式不正确/0.0.1920.1040@0.0.1920.1040" timestamp="1611628814357" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611626958395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611626958395" />
+    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611623545734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611623545734" />
+    <state x="594" y="206" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1611623431640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="594" y="206" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611623431640" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611629519031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611629519031" />
+    <state x="818" y="265" key="EnvironmentVariablesDialog" timestamp="1611627063858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="265" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611627063858" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611971552936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611971552936" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611999976163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611999976163" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611999976163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611999976163" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611999976162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611999976162" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611999976163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611999976163" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1611997594305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611997594305" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1611997594305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611997594305" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1611997594305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611997594305" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1611997594305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611997594305" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1611992421959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611992421959" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1611798343810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611798343810" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1611970424081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611970424081" />
+    <state x="334" y="180" key="new project wizard" timestamp="1611632197479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611632197479" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1611974674375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611974674375" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Jekinsxuexi$Scenario__A001.ic" NAME="Scenario: A001 Coverage Results" MODIFIED="1611628827072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>
