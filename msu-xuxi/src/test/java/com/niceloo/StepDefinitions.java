@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.messages.internal.com.google.common.base.Charsets;
-import macaca.client.MacacaClient;
+//import macaca.client.MacacaClient;
 
 import net.minidev.json.JSONObject;
 import org.apache.hc.client5.http.fluent.Content;
@@ -138,7 +138,7 @@ String CC=".main-doc > h3:nth-child(1)";
 
 
 
-    MacacaClient driver;
+    //MacacaClient driver;
 
 
 
