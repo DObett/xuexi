@@ -1,11 +1,11 @@
 package Suiji;
 import java.util.*;
-
+import dao.rec;
 public class Suiji {
     public static void main(String[] args) {
 
         //1.创建对象
-        for (int q = 0; q < 9999999; q++) {
+        for (int q = 1; q < 99999; q++) {
 
             Set<String> set = new TreeSet<String>();
             while (true) {
@@ -19,7 +19,16 @@ public class Suiji {
             int sui2 = (int) (Math.random() * 16) + 1;// 获取16以内的数字
             set2.add(sui2 < 10 ? "0" + sui2 : "" + sui2);
            // System.out.println("红球：" + set + " 蓝球：" + set2);
+
             List<String> lst = new ArrayList<String>(set);
+            List<String> lstt = new ArrayList<String>();
+            lstt.add(0,"06");
+            lstt.add(1,"14");
+            lstt.add(2,"16");
+            lstt.add(3,"26");
+            lstt.add(4,"28");
+            lstt.add(5,"29");
+
             //
             Random random = new Random();
             ArrayList<String> numbers = new ArrayList<String>();
@@ -82,12 +91,19 @@ public class Suiji {
 
            // System.out.println(numbers + " ");
 
-            // System.out.println(numbers+" ");
+             System.out.println(numbers+" ");
             for (String i : numbers) {
                 //System.out.print(i+",");
             }
 
-            if (count == 999) {
+            System.out.println(count + "次跑出一样结果");
+             rec re=new rec();
+
+             re.updateRecord(q,count,set,set2);
+
+
+
+            if (count == 644) {
                 System.out.println(numbers + " ");
                 System.out.println("红球：" + set + " 蓝球：" + set2);
                 System.out.println(count + "次跑出一样结果");

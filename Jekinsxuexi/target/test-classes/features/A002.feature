@@ -2,12 +2,12 @@ Feature:A002
 
 
   Scenario Outline: A002
-    Given API "/api/ir/item/view/list"
+    Given API "/api/ir/org/item/view/list"
     When Get
     And Param
 	 """
-	 pageIndex :
-	 pageSize :
+	 pageIndex : 700
+	 pageSize : 100
 	 orderNo :
 	 userId :
 	 projectId :

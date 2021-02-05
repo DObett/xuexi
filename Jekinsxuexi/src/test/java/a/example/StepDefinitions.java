@@ -21,9 +21,7 @@ import org.yaml.snakeyaml.Yaml;
 import io.restassured.specification.RequestSpecification;
 import java.io.IOException;
 import java.net.URLEncoder;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -81,21 +79,22 @@ public class StepDefinitions {
         JSONArray jArray = new JSONArray();
         jArray.add(map);
         String str = jArray.toString();
-        System.out.println(str);
-        System.out.println(param);
+       // System.out.println(str);
+       // System.out.println(param);
        // JSONObject jsonObject1 = JSONObject.parseObject(yamlContent);
         //System.out.println("JSON字符串转换成JSON对象\n" + jsonObject1);
-        System.out.println(yamlContent);
+        //System.out.println(yamlContent);
         String encodeParams= URLEncoder.encode(param,"UTF-8");
-        System.out.println(urll+"?params="+encodeParams+"&ctype=YOULU.WEB");
+        //System.out.println(urll+"?params="+encodeParams+"&ctype=YOULU.WEB");
         String aa = Request.get(urll+"?params="+encodeParams+"&ctype=YOULU.WEB")
                 .addHeader("User-Agent","Mozilla/5.0(Windows NT 6.1;Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0")
                 .execute().returnContent().asString(Charsets.UTF_8);
 
           this.aa=aa;
          JSONObject jsonObject1 = JSONObject.parseObject(aa);
-        System.out.println("JSON字符串转换成JSON对象\n" + jsonObject1);
-
+        //System.out.println("JSON字符串转换成JSON对象\n" + jsonObject1);
+        List<String> authors2 = JsonPath.read(aa, "$..orderNo");
+         print(authors2);
         JSONObject json = new JSONObject();
        // Response response = (Response)((RequestSpecification) RestAssured.given().contentType("application/json;charset=UTF-8").param("params", new Object[]{params}).param("ctype", new Object[]{"YOULU.WEB"}).body(json.toJSONString()).when().log().all());
 
@@ -119,7 +118,7 @@ public class StepDefinitions {
         if (isJSON2(aa) == true) {
             String arg3 = JsonPath.read(aa, "$." + arg0);
             if (arg3.equals(arg1)) {
-                System.out.println("断言OK");
+                //System.out.println("断言OK");
             }
         } else {
 
@@ -127,7 +126,7 @@ public class StepDefinitions {
 
                     String  arg4 =doc.select(arg0).text();
                      if (arg4.equals(arg1)) {
-                        System.out.println("断言OK");
+                       // System.out.println("断言OK");
                         }
         }
 
@@ -164,7 +163,11 @@ public class StepDefinitions {
 
 
 
-
+    private static void print(List<String> list) {
+        for(Iterator<String> it = list.iterator(); it.hasNext();) {
+            System.out.println(it.next());
+        }
+    }
 
 
 
