@@ -72,7 +72,6 @@ public class Suiji {
             }
           //  System.out.println(count + "次跑出一样结果");
 
-
             //Collections.sort(numbers);
 
             //System.out.println(numbers + " ");
