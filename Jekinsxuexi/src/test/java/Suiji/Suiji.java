@@ -90,12 +90,12 @@ public class Suiji {
 
            // System.out.println(numbers + " ");
 
-             System.out.println(numbers+" ");
+            // System.out.println(numbers+" ");
             for (String i : numbers) {
                 //System.out.print(i+",");
             }
 
-            System.out.println(count + "次跑出一样结果");
+            //System.out.println(count + "次跑出一样结果");
              rec re=new rec();
 
              re.updateRecord(q,count,set,set2);
