@@ -9,7 +9,8 @@ import java.util.Date;
 public class rec {
     String baofu;
     String id;
-
+    String  orderId;
+    String oiExt;
     public String getId() {
         return id;
     }
@@ -26,6 +27,22 @@ public class rec {
         this.baofu = senten;
     }
 
+    public  void setoiExt(String oiExt) {
+        this.oiExt=oiExt;
+    }
+    public  void setorderId(String orderId) {
+        this.orderId=orderId;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public String getOiExt() {
+        return oiExt;
+    }
+
+
     public void updateRecord(int id, int count, Set<String> red,  Set<String> blue ) {
         Connection conn = null;
         Statement stmt = null;
@@ -38,6 +55,29 @@ public class rec {
             stmt = conn.createStatement();
             //发送SQL语句
             String sql = "INSERT INTO `daili`.`baofu`(`id`, `count`, `red`,`blue`) VALUES ("+id+","+count+",\""+red+"\",\""+blue+"\");";
+
+            // 执行更新，返回受影响行数
+            num = stmt.executeUpdate(sql);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.release(rs, stmt, conn);
+        }
+
+    }
+
+    public void updatefhoi(String orderId,  String stage2,  String stage1 ) {
+        Connection conn = null;
+        Statement stmt = null;
+        ResultSet rs = null;
+        int num = 0;
+        try {
+            //获得数据的连接
+            conn = JDBCUtils.getConnections();
+            //获得Statement对象
+            stmt = conn.createStatement();
+            //发送SQL语句
+            String sql = "INSERT INTO `daili`.`fhoi`(`orderId`, `stage1`, `stage2`) VALUES (\""+orderId+"\",\""+stage1+"\",\""+stage2+"\");";
 
             // 执行更新，返回受影响行数
             num = stmt.executeUpdate(sql);
@@ -155,6 +195,46 @@ public class rec {
  
     }
 
+    public Map<String, String>   selectoiExt(){
+
+       Connection conn = null;
+       Statement stmt = null;
+       ResultSet rs = null;
+       rec record = new rec();
+        List<String> orderidlist = new ArrayList<String>();//
+        List<String> oiExtlist = new ArrayList<String>();
+        Map<String, String> mapp = new HashMap<>();
+       try {
+           //获得数据的连接
+           conn = JDBCUtils.getConnection();
+           //获得Statement对象
+           stmt = conn.createStatement();
+           //发送SQL语句
+           String sql = "SELECT orderId,oiExt from fh20210226v1.FhOi    ; ";
+
+
+
+
+           // 执行更新，返回受影响行数
+           rs = stmt.executeQuery(sql);
+           wait(132000);
+           while (rs.next()) {
+               record.setorderId(rs.getString(1));
+               record.setoiExt(rs.getString(2));
+                orderidlist.add(record.getOrderId());
+                oiExtlist.add(record.getOiExt());
+                mapp.put(record.getOrderId(),record.getOiExt());
+           }
+       } catch (Exception e) {
+           e.printStackTrace();
+       } finally {
+           JDBCUtils.release(rs, stmt, conn);
+       }
+
+         return  mapp ;
+
+
+    }
 
 
 
@@ -185,7 +265,7 @@ public class rec {
 
     public   String  compareriqi (List<String> separator) throws ParseException {
         SimpleDateFormat sdf  =new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-            for (int x=0;x<=separator.size();x++){
+            for (int x=0;x<=separator.size();x++){//冒泡排序记住这2个循环 很重要的 
                 for (int y=0;y<separator.size()-1;y++) {
                     String date = separator.get(y);Date dateD = sdf.parse(date);
 

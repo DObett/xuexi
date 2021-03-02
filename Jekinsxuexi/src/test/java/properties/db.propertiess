@@ -1,0 +1,5 @@
+driverName=com.mysql.jdbc.Driver
+url=jdbc:mysql://47.105.93.5:9048/fh20210226v1?useUnicode=true&characterEncoding=utf8
+databaseName=fh20210226v1
+user=uv39v60
+password=HC2fHznvylCSJnouupeuJrKUvsg1sVSp

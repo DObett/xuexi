@@ -22,7 +22,7 @@ public class JDBCUtils {
         // 实例化Properties对象
         Properties properties = new Properties();
         // 加载properties配置文件
-        properties.load(new FileInputStream(new File("src\\test\\java\\properties\\db.properties")));
+        properties.load(new FileInputStream(new File("src\\test\\java\\properties\\db.propertiess")));
         // 通过键名获取对应的值
         String driverName = properties.get("driverName").toString();
         String url = properties.get("url").toString();
@@ -32,7 +32,26 @@ public class JDBCUtils {
         Class.forName(driverName);
         // 获取数据库链接对象
         Connection connection = DriverManager.getConnection(url, user, password);
+
         return connection;
+    }
+
+    static Connection getConnections() throws SQLException, ClassNotFoundException, IOException {
+        // 实例化Properties对象
+        Properties properties = new Properties();
+        // 加载properties配置文件
+        properties.load(new FileInputStream(new File("src\\test\\java\\properties\\db.properties")));
+        // 通过键名获取对应的值
+        String driverName = properties.get("driverName").toString();
+        String url = properties.get("url").toString();
+        String user = properties.get("user").toString();
+        String password = properties.get("password").toString();
+        // 数据库驱动
+        Class.forName(driverName);
+        // 获取数据库链接对象
+        Connection connections = DriverManager.getConnection(url, user, password);
+
+        return connections;
     }
 
     /**
@@ -128,5 +147,52 @@ public class JDBCUtils {
         }
         return false;
     }
+
+    public static void closeAll(Connection conn,PreparedStatement ps,ResultSet rs){
+
+        try{
+
+            if(rs!=null){
+
+                rs.close();
+
+            }
+
+        }catch(SQLException e){
+
+            e.printStackTrace();
+
+        }
+
+        try{
+
+            if(ps!=null){
+
+                ps.close();
+
+            }
+
+        }catch(SQLException e){
+
+            e.printStackTrace();
+
+        }
+
+        try{
+
+            if(conn!=null){
+
+                conn.close();
+
+            }
+
+        }catch(SQLException e){
+
+            e.printStackTrace();
+
+        }
+
+    }
+
 
 }

@@ -27,19 +27,12 @@
     <list default="true" id="bf45cf80-6c5b-4c05-a6a4-f4f96bff2d42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Suiji/Shaixuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suiji/Shaixuan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/JDBCUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dao/rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/properties/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suiji/Shaixuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suiji/Suiji.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Xunhuan/Xunhuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/a/example/RunCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/a/example/StepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/rec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/A001.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/A002.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/properties/db.propertiess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suiji/Shaixuan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suiji/Shaixuan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/rec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/rec.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssured/RestAssured" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssured/RestAssured" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-ircenter-api-test" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-ircenter-api-test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msu-xuxi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msu-xuxi/.idea/workspace.xml" afterDir="false" />
@@ -86,21 +79,35 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msa-ircenter-api-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msu-xuxi" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Jiekou\Jekinsxuexi\src\test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Jiekou\Jekinsxuexi\src\test\java\properties" />
       <recent name="D:\Jiekou\Jekinsxuexi\file" />
       <recent name="D:\Jiekou\Jekinsxuexi\src\test\java" />
       <recent name="D:\Jiekou\Jekinsxuexi\src\test\resources\features" />
       <recent name="D:\接口自动化学习\Jekinsxuexi\src\test\resources\features" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Jiekou\Jekinsxuexi\src\test" />
-    </key>
   </component>
   <component name="RunManager" selected="Application.Shaixuan">
+    <configuration name="JDBCUtlTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.JDBCUtlTool" />
+      <module name="Jekinsxuexi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shaixuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Suiji.Shaixuan" />
       <module name="Jekinsxuexi" />
@@ -160,28 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jekinsxuexi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="a.example" />
-      <option name="MAIN_CLASS_NAME" value="a.example.RunCucumberTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Shaixuan" />
+        <item itemvalue="Application.JDBCUtlTool" />
         <item itemvalue="Application.Suiji" />
         <item itemvalue="Application.Xunhuan" />
         <item itemvalue="Cucumber Java.Scenario: A002" />
-        <item itemvalue="JUnit.RunCucumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +215,12 @@
       <workItem from="1613801218243" duration="8323000" />
       <workItem from="1613867640843" duration="4871000" />
       <workItem from="1613872561450" duration="1009000" />
-      <workItem from="1613873620255" duration="14549000" />
+      <workItem from="1613873620255" duration="15727000" />
+      <workItem from="1614050060967" duration="640000" />
+      <workItem from="1614225020272" duration="1187000" />
+      <workItem from="1614418736812" duration="714000" />
+      <workItem from="1614652548964" duration="1600000" />
+      <workItem from="1614665243512" duration="9981000" />
     </task>
     <servers />
   </component>
@@ -271,14 +268,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612486091243" />
-    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611623545734">
+    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614657241972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611623545734" />
+    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614657241972" />
     <state x="594" y="206" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1611623431640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="594" y="206" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611623431640" />
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1614665339280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614665339280" />
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1612237879488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -291,42 +292,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="818" y="265" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611627063858" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613810651890">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614670758342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613810651890" />
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1613895078085">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614670758342" />
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1614674918658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613895078085" />
-    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1613895078085">
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614674918658" />
+    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1614674918658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613895078085" />
-    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1613895078085">
+    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614674918658" />
+    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1614674918658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613895078085" />
-    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1613895078085">
+    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614674918658" />
+    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1614674918658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613895078085" />
-    <state width="1877" height="286" key="GridCell.Tab.1.bottom" timestamp="1613894427448">
+    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614674918658" />
+    <state width="1877" height="286" key="GridCell.Tab.1.bottom" timestamp="1614673701806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613894427448" />
-    <state width="1877" height="286" key="GridCell.Tab.1.center" timestamp="1613894427448">
+    <state width="1877" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614673701806" />
+    <state width="1877" height="286" key="GridCell.Tab.1.center" timestamp="1614673701806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613894427448" />
-    <state width="1877" height="286" key="GridCell.Tab.1.left" timestamp="1613894427448">
+    <state width="1877" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614673701806" />
+    <state width="1877" height="286" key="GridCell.Tab.1.left" timestamp="1614673701806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613894427448" />
-    <state width="1877" height="286" key="GridCell.Tab.1.right" timestamp="1613894427448">
+    <state width="1877" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614673701806" />
+    <state width="1877" height="286" key="GridCell.Tab.1.right" timestamp="1614673701806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613894427448" />
+    <state width="1877" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614673701806" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1611992421959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -351,6 +352,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612256946477" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dao/rec.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dao/rec.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dao/JDBCUtils.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Suiji/Shaixuan.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Suiji/Shaixuan.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Suiji/Shaixuan.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Jekinsxuexi$Scenario__A001.ic" NAME="Scenario: A001 Coverage Results" MODIFIED="1611628827072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
